@@ -22,7 +22,6 @@ body {
   align-items: center;
   justify-content: center;
   width: 500px;
-  gap: 1rem;
   background-color: #ee534f;
   border: solid 2px #fff;
   transition: 1s ease-in-out;
@@ -34,15 +33,19 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+}
+.slack-content {
+  padding-top: 8px;
+  padding-left: 42px;
+  text-align: justify;
 }
 
 h3 {
   text-align: center;
-  padding-top: 5px;
+  padding-top: 4px;
 }
 p {
-  padding: 20px;
+  padding: 16px;
   justify-content: center;
   align-items: center;
   text-align: justify;
@@ -51,4 +54,15 @@ p {
 a {
   text-decoration: none;
   color: #1f1211;
+}
+a:hover {
+  color: hotpink;
+  background-color: #ddcfbc;
+}
+
+@media (max-width: 600px) {
+
+    .card-container {
+        width: 350px;
+    }
 }

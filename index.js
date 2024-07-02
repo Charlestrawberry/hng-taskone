@@ -18,6 +18,6 @@ currentDay.innerText = dayList[mainDay];
 let mainMonth = generalTime.getMonth();
 
 let ndate = generalTime.toLocaleString();
-console.log(ndate);
+
 currentTime.innerHTML = ndate;
 // currentDay.innerHTML = mainDay;
