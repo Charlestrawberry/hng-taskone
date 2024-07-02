@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slack HnG profile</title>
-</head>
-<body>
-    <div class="card-contain">
-        <div class="slack-card">
-          <img
-            src="assets/charlestrawb.jpg"
-            alt="charlestrawb"
-            data-test-id="slack-displayimg"
-          />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="slack">
+        <img
+          src="assets/charlestrawb.jpg"
+          alt="charlestrawb"
+          data-test-id="slackProfilePicture"
+        />
+      
+
+      <div class="slack-content">
+        <div class="slack-name" data-testid="slackDisplayName">
+          <span class="name">Slack Name: </span>Charlestrawb
         </div>
-  
-        <div class="slack">
-        <div class="slack-name" data-testid="slackDisplayName"><span class="name">Slack Name: </span>Charlestrawb</div>
         <div class="slack-time">
           Current Time:
           <span data-testid="currentTimeUTC" id="currentTime"></span>
@@ -25,19 +28,51 @@
           Current Day:
           <span data-testid="currentDay" id="currentDay"></span>
         </div>
-          <div class="slack-email" data-testid="slackEmail"
-          ><i>Charlestrawb_odus@yahoo.com</i></div>
-  
-          <a href="https://hng.tech/learn"  data-testid="hngLink" target="_blank"  > HNG Link </a>
-          <a href="https://hng.tech/learn"  data-testid="hngLink" target="_blank"  > HNG Link </a>
-          <a href="https://hng.tech/learn"  data-testid="hngLink" target="_blank"  > HNG Link </a>
-  
+        <div class="slack-email" data-testid="slackEmail">
+          <i>Charlestrawb_odus@yahoo.com</i>
         </div>
-        <div class="slack-content">
-          <h3>My Tech Goals for the Next Two Years</h3>
-          <p>Over the next two years, I aim to deepen my expertise in Frontend Engineering, focusing on developing innovative solutions that address real-world problems. I plan to acquire advanced certifications and contribute to open-source projects to enhance my skills and collaborate with the tech community. Additionally, I will actively participate in industry conferences and workshops to stay updated with the latest trends and network with like-minded professionals. My ultimate goal is to lead impactful projects that drive technological advancement and create positive societal change.</p>
-        </div>
-  
+
+        <a href="https://hng.tech/learn" data-testid="hngLink" target="_blank">
+          HNG Link
+        </a> 
+        
+        <a
+          href="https://keyword.dog/"
+          data-testid="keywordLink"
+          target="_blank"
+        >
+          Keyword
+        </a>
+        
+        
+        <a
+          href="https://scrapeanyweb.site"
+          data-testid="scrapeanywebLink"
+          target="_blank"
+        >
+          scrapeany
+        </a>
+        
       </div>
-</body>
+      <div class="slack-content">
+        <h3>My Tech Goals for the Next Two Years</h3>
+        <p>
+          Over the next two years, I aim to deepen my expertise in Frontend
+          Engineering, focusing on developing innovative solutions that address
+          real-world problems. I plan to acquire advanced certifications and
+          contribute to open-source projects to enhance my skills and
+          collaborate with the tech community. Additionally, I will actively
+          participate in industry conferences and workshops to stay updated with
+          the latest trends and network with like-minded professionals. My
+          ultimate goal is to lead impactful projects that drive technological
+          advancement and create positive societal change.
+        </p>
+      </div>
+
+    </div>
+    </div>
+
+    <!-- JS -->
+    <script src="index.js"></script>
+  </body>
 </html>
